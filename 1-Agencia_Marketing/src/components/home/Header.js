@@ -12,7 +12,7 @@ function Header() {
                     <div>
 
                         <div>
-                            <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
+                            <h1 className="text-4xl font-semibold tracking-tight pb-48 sm:text-center sm:text-7xl">
                                 Agency for <span> </span>
                                 
                                 <Typewriter

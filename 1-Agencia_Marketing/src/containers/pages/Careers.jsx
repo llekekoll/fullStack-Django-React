@@ -9,21 +9,22 @@ import Features from "components/careers/Features"
 import PositionsList from "components/careers/PositionsList"
 
 function Careers() {
-    useEffect(()=>{
-        window.scrollTo(0,0)
-    },[])
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <Layout>
-            <Navbar/>
+            <Navbar />
             <div className="pt-28">
-                <Header/>
-                <Testimonial/>
-                <LogoCloud/>
-                <Features/>
-                <Features/>
-                <PositionsList/>
+                <Header />
+                <Testimonial />
+                <div className="bg-gray-50">
+                </div>
+                <Features />
+                <Features />
+                <PositionsList />
             </div>
-            <Footer/>
+            <Footer />
         </Layout>
     )
 }

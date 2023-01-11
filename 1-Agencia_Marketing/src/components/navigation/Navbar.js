@@ -39,9 +39,9 @@ const solutions = [
       icon: IconThree,
     },
     {
-      name: 'Contacto',
+      name: 'Contactos',
       description: 'Keep track of your growth',
-      href: '/contacto',
+      href: '/contactos',
       icon: IconThree,
     },
   ]
@@ -80,7 +80,7 @@ function Navbar(){
                     <NavLink to='/nosotros' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-yellow-button transition duration-300 ease-in-out mx-4">Nosotros</NavLink>
                     <NavLink to='/carreras' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-yellow-button transition duration-300 ease-in-out mx-4">Carreras</NavLink>
                     <NavLink to='/blog' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-yellow-button transition duration-300 ease-in-out mx-4">Blog</NavLink>
-                    <NavLink to='/contacto' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-yellow-button transition duration-300 ease-in-out mx-4">Contacto</NavLink>
+                    <NavLink to='/contactos' className="text-lg inline-flex font-medium leading-6 text-gray-900 border-b-2 border-white hover:border-yellow-button transition duration-300 ease-in-out mx-4">Contacto</NavLink>
                     
                     <Link
                         to="/contacto"

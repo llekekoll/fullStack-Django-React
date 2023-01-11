@@ -16,30 +16,31 @@ function App() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Fork DAO | "todo roto</title>
-        <meta name="description" content="Agencia de software y marketing digital. Servicios de creacion de pagina web y desarrollo de aplicaciones." />
-        <meta name="keywords" content='agencia de software, agencia de marketing, creacion de pagina web' />
+        <title>Fork DAO | "todo roto"</title>
+        <meta name="description" content="Estableciendonos como un agregador web3." />
+        <meta name="keywords" content='web3, DAO, integraciones, descentralizacion' />
         <meta name="robots" content='all' />
         <link rel="canonical" href="https://www.fork-dao.com/" />
         <meta name="author" content='ekeko' />
         <meta name="publisher" content='ekeko' />
 
         {/* Social Media Tags */}
-        <meta property="og:title" content='Murkiva | Software Agency' />
-        <meta property="og:description" content='Agencia de software y marketing digital. Servicios de creacion de pagina web y desarrollo de aplicaciones.' />
-        <meta property="og:url" content="https://www.murkiva.com/" />
-        <meta property="og:image" content='https://bafybeicwrhxloesdlojn3bxyjqnxgsagtd4sl53a7t4cn4vfe2abmybzua.ipfs.w3s.link/lightbnuilbg.jpg' />
+        <meta property="og:title" content='Fork DAO | "todo roto"' />
+        <meta property="og:description" content='Estableciendonos como un agregador web3.' />
+        <meta property="og:url" content="www.fork-dao.com/" />
+        <meta property="og:image" content='https://bafybeigh4em54oo3stszmrfh756dilog63eszlwhkwpnst3xxzpmwbctxm.ipfs.w3s.link/FDNEGROCIRCULAR.png' />
 
-        <meta name="twitter:title" content='Murkiva | Software Agency' />
+        <meta name="twitter:title" content='Fork DAO | "todo roto"' />
         <meta
             name="twitter:description"
-            content='Agencia de software y marketing digital. Servicios de creacion de pagina web y desarrollo de aplicaciones.'
+            content='Estableciendonos como un agregador web3.'
         />
-        <meta name="twitter:image" content='https://bafybeicwrhxloesdlojn3bxyjqnxgsagtd4sl53a7t4cn4vfe2abmybzua.ipfs.w3s.link/lightbnuilbg.jpg' />
+        <meta name="twitter:image" content='https://bafybeigh4em54oo3stszmrfh756dilog63eszlwhkwpnst3xxzpmwbctxm.ipfs.w3s.link/FDNEGROCIRCULAR.png' />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <Provider store={store}>
         <Router>
+
           <Routes>
             {/*Error Display*/}
             <Route path='*' element={<Error404 />} />
